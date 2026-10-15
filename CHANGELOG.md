@@ -10,6 +10,4 @@ Este archivo contiene el historial de modificaciones persistentes o relevantes r
 | 2026-09-15 22:14 | Bindings persistentes en `custom.lua` | Restauración persistente de `SUPER+SHIFT+P` (HEADLESS-2) y `SUPER+SHIFT+I` (eDP-1) | Configuración Hyprland Lua | No persistidos | Activos y cargados en memoria | Eliminar líneas correspondientes en `custom.lua` |
 | 2026-09-15 22:41 | Binding `PRINT` en `custom.lua` | Actualización de `PRINT` a `flameshot screen -c` para evadir salto de cursor multi-monitor | Configuración Hyprland Lua | `flameshot gui` | `flameshot screen -c` | Restaurar `flameshot gui` en `custom.lua` |
 | 2026-09-16 00:03 | Binding `PRINT` en `custom.lua` | Restauración definitiva de `PRINT` a `flameshot gui` tras eliminar el monitor fantasma `HEADLESS-1` | Configuración Hyprland Lua | `flameshot screen -c` | `flameshot gui` | Cambiar a `flameshot screen -c` |
-
-
-
+| 2026-10-15 | Adaptación Sway | Adaptar la utilidad a Sway headless con WayVNC/ADB reverse y documentar integración opcional con AVNC y atajos | `scripts/pantalla-tablet.sh`, `README.md`, `INVESTIGACION.md` | Controlador específico de Hyprland, documentación obsoleta | Controlador para Sway y pasos reproducibles de instalación/uso | Volver al commit anterior de estos archivos |
