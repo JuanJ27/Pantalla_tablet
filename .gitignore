@@ -1,0 +1,8 @@
+# Archivos locales y copias de seguridad
+*.bak
+*.bak.*
+*.bak_*
+logs/
+
+# Diagnósticos con información del dispositivo y sistema local
+diagnostico/info_sistema.txt
